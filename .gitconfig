@@ -1,0 +1,11 @@
+[user]
+	name = sejarparvez
+	email = sejarparvez@yahoo.com
+[core]
+	sshCommand = ssh -i ~/.ssh/id_rsa -F /dev/null
+[credential "https://github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
