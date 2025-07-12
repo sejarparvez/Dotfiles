@@ -44,6 +44,8 @@ sudo apt install git curl fish kitty neovim nodejs npm
 
 ---
 
+---
+
 ## 🛠️ Installation
 
 Follow these steps to quickly set up your dotfiles on a new system:
@@ -58,10 +60,8 @@ Follow these steps to quickly set up your dotfiles on a new system:
 2.  **Clone the Installer Script:**
 
     ```bash
-    git clone [https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPO_NAME.git](https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPO_NAME.git) ~/temp_dotfiles_installer
+    git clone [https://github.com/sejarparvez/Dotfiles.git](https://github.com/sejarparvez/Dotfiles.git) ~/temp_dotfiles_installer
     ```
-
-    _(Remember to replace `YOUR_GITHUB_USERNAME` and `YOUR_REPO_NAME`)_
 
 3.  **Run the Installation Script:**
     This script will set up the bare Git repository (`~/.cfg`), check out your dotfiles, and configure the `config` alias for Fish Shell.
